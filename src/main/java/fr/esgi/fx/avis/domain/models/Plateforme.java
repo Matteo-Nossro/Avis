@@ -1,15 +1,18 @@
-package fr.esgi.fx.avis.entities;
+package fr.esgi.fx.avis.domain.models;
 
+import java.time.LocalDate;
 import java.util.List;
 
-public class Editeur {
+public class Plateforme {
     private final Long id;
     private final String nom;
+    private final LocalDate dateDeSortie;
     private List<Jeu> jeux;
 
-    public Editeur(Long id, String nom) {
+    public Plateforme(Long id, String nom, LocalDate dateDeSortie) {
         this.id = id;
         this.nom = nom;
+        this.dateDeSortie = dateDeSortie;
     }
 
     public Long getId() { return id; }

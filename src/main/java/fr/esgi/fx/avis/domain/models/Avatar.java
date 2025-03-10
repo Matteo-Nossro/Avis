@@ -1,4 +1,4 @@
-package fr.esgi.fx.avis.entities;
+package fr.esgi.fx.avis.domain.models;
 
 public class Avatar {
     private final Long id;

@@ -1,17 +1,15 @@
-package fr.esgi.fx.avis.entities;
+package fr.esgi.fx.avis.domain.models;
 
 import java.util.List;
 
-public class Classification {
+public class Editeur {
     private final Long id;
     private final String nom;
-    private final String couleurRGB;
     private List<Jeu> jeux;
 
-    public Classification(Long id, String nom, String couleurRGB) {
+    public Editeur(Long id, String nom) {
         this.id = id;
         this.nom = nom;
-        this.couleurRGB = couleurRGB;
     }
 
     public Long getId() { return id; }

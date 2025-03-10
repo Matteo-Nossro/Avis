@@ -1,4 +1,4 @@
-package fr.esgi.fx.avis.entities;
+package fr.esgi.fx.avis.domain.models;
 
 public abstract class Utilisateur {
     protected final Long id;

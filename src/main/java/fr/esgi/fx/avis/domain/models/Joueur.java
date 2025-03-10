@@ -1,4 +1,4 @@
-package fr.esgi.fx.avis.entities;
+package fr.esgi.fx.avis.domain.models;
 
 import java.time.LocalDate;
 import java.util.List;

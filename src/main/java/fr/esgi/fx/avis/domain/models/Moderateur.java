@@ -1,4 +1,4 @@
-package fr.esgi.fx.avis.entities;
+package fr.esgi.fx.avis.domain.models;
 
 public class Moderateur extends Utilisateur {
     private final String numeroDeTelephone;
